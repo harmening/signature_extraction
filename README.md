@@ -1,5 +1,8 @@
 # Email Signature Extraction
 
+.. image:: https://codecov.io/gh/harmening/signature_extraction/branch/master/graph/badge.svg
+  :target: https://codecov.io/gh/harmening/signature_extraction
+
 Email Signature Extraction is a library for splitting email content into two parts: a human-written body and an automatically appended signature.
 
 ### Installation
@@ -9,7 +12,7 @@ Install required dependencies in a virtual environment:
 
 
 
-### Approach
+## Approach
 A combination of standart algorithms and machine learning techniques is used to detect and extract the signature part. This detection problem is converted into a binary classification task with 2 possible outcomes: `signature` (1) or `body` (0).
 After preprocessing the email, its text is splitted into lines and each line is classified while taking previous and next lines into account as well. A subsequent algorithm is applied for grouping several continuous lines of ones (i.e. signatures) and extracting it from the email body.
 
@@ -34,7 +37,7 @@ The evaluation is done based on the f1 metric, which is widely used for evaluati
 
 
 ### To Do
- * Find better solution for grouping lines of continuous signature lines. It is assumend that the longest repeating sequence of ones algorithm is going to fail for some edge cases.
+ * Find better solution for grouping lines of continuous signature. It is assumend that the longest repeating sequence of ones algorithm is going to fail for some edge cases.
  * Increase size of training data
  * Improve accuracy of classifier model
  * Experiment with Long short-term memory (LSTM) Recurrent Neural Networks (RNN).
