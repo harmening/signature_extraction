@@ -1,5 +1,7 @@
 # Email Signature Extraction
 
+.. image:: https://travis-ci.org/harmening/signature_extraction.svg?branch=master
+  :target: https://travis-ci.org/harmening/signature_extraction
 .. image:: https://codecov.io/gh/harmening/signature_extraction/branch/master/graph/badge.svg
   :target: https://codecov.io/gh/harmening/signature_extraction
 
