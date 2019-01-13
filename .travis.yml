@@ -1,15 +1,18 @@
 language: python
+
 sudo: false
 
 python:
   - 3.6
 
 install:
-	- pip install -r requirements.txt
+  - pip install -r requirements.txt
+  - pip install tox-travis
+  - pip install coverage
   - pip install codecov
 
 script:
-  - coverage run -m unittest tests.test_suit
+  - tox
 
 after_success:
-  - codecov
+  - coverage combine && codecov
