@@ -1,6 +1,5 @@
-sudo: false
-
 language: python
+sudo: false
 
 python:
   - 3.6
@@ -13,4 +12,4 @@ script:
   - coverage run -m unittest tests.test_suit
 
 after_success:
-- codecov
+  - codecov

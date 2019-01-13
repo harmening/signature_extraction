@@ -1,12 +1,16 @@
 # Email Signature Extraction
 
+[![build](https://travis-ci.org/harmening/signature_extraction.svg?branch=master)](https://travis-ci.org/harmening/signature_extraction)
+[![coverage](https://codecov.io/gh/harmening/signature_extraction/branch/master/graph/badge.svg)](https://codecov.io/gh/harmening/signature_extraction)
 
 Email Signature Extraction is a library for splitting email content into two parts: a human-written body and an automatically appended signature.
 
 ### Installation
 Install required dependencies in a virtual environment:
 
- * pip install -r requirements.txt
+```sh
+$ pip install -r requirements.txt
+```
 
 
 
@@ -40,12 +44,18 @@ The evaluation is done based on the f1 metric, which is widely used for evaluati
  * Improve accuracy of classifier model
  * Experiment with Long short-term memory (LSTM) Recurrent Neural Networks (RNN).
 
-### Support my projects
+
+### Support my projects :gift_heart:
 
 I love open-source! And I try to reply everyone needing help using my projects. Also, you are of cause free to integrate and my project in your applications. However, if you get some profit from this or just want to encourage me to continue creating stuff, there are few ways you can do it:
  - Starring and sharing projects you like
+ - :stew: [Share your next meal][sharemeal] with these unfortunate, because there is no reason not to do so!
+ - :book: [Buy me a book][amazon]: I love books and I will always remember you :wink:
  - **Bitcoin**: You can send me bitcoins at this address:
  `xpub6DUNko8GTPePPgtbK1qfpiLCoujQXUBTi1qtfw7V2oBCdnk1H9d3if3pazmCy9QgENKSNPpHAXRZp8HLSG7pWwba5HRcHLC3TjbXYXXZh57`
 
 Thanks! :heart:
 
+
+[amazon]: http://a.co/4CZC8iN
+[sharemeal]: https://sharethemeal.org/en/index.html
