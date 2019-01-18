@@ -1,6 +1,6 @@
 # Email Signature Extraction
 
-[![build](https://travis-ci.org/harmening/signature_extraction.svg?branch=master)](https://travis-ci.org/harmening/signature_extraction)
+[![tests](https://travis-ci.org/harmening/signature_extraction.svg?branch=master)](https://travis-ci.org/harmening/signature_extraction)
 [![coverage](https://codecov.io/gh/harmening/signature_extraction/branch/master/graph/badge.svg)](https://codecov.io/gh/harmening/signature_extraction)
 
 Email Signature Extraction is a library for splitting email content into two parts: a human-written body and an automatically appended signature.
@@ -45,9 +45,8 @@ The evaluation is done based on the f1 metric, which is widely used for evaluati
  * Experiment with Long short-term memory (LSTM) Recurrent Neural Networks (RNN).
 
 
-### Support my projects :gift_heart:
-
-I love open-source! And I try to reply everyone needing help using my projects. Also, you are of cause free to integrate and my project in your applications. However, if you get some profit from this or just want to encourage me to continue creating stuff, there are few ways you can do it:
+### Support :gift_heart:
+I love open-source! Meaning, you are of cause free to integrate my project in your applications. However, **if you get some profit from this** or just want to support and encourage me to continue creating stuff, there are few ways you can do so:
  - Starring and sharing projects you like
  - :stew: [Share your next meal][sharemeal] with these unfortunate, because there is no reason not to do so!
  - :book: [Buy me a book][amazon]: I love books and I will always remember you :wink:

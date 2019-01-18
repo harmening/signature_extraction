@@ -15,4 +15,5 @@ script:
   - tox
 
 after_success:
+  - ls -la
   - codecov
