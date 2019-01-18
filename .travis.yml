@@ -7,12 +7,13 @@ python:
 
 install:
   - pip install -r requirements.txt
-  - pip install tox-travis
   - pip install coverage
   - pip install codecov
 
 script:
-  - tox
+  - python -c 'import nltk; nltk.download("punkt"); nltk.download("averaged_perceptron_tagger"); nltk.download("maxent_ne_chunker"); nltk.download("words")'
+  - coverage run -m unittest tests.test_suit
+  - coverage report -m
 
 after_success:
   - ls -la
