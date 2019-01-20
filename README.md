@@ -1,6 +1,6 @@
 # Email Signature Extraction
 
-[![tests](https://travis-ci.org/harmening/signature_extraction.svg?branch=master)](https://travis-ci.org/harmening/signature_extraction)
+[![build](https://travis-ci.org/harmening/signature_extraction.svg?branch=master)](https://travis-ci.org/harmening/signature_extraction)
 [![coverage](https://codecov.io/gh/harmening/signature_extraction/branch/master/graph/badge.svg)](https://codecov.io/gh/harmening/signature_extraction)
 
 Email Signature Extraction is a library for splitting email content into two parts: a human-written body and an automatically appended signature.
